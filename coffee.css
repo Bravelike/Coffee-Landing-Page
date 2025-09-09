@@ -15,6 +15,9 @@
     /* Pure white */
 }
 
+html {
+    scroll-behavior: smooth;
+}
 @keyframes bounce {
 
     0%,
