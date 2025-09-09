@@ -1,0 +1,83 @@
+:root {
+    --primary-brown: rgb(140, 69, 18);    /* Main brand color */
+    --dark-brown: rgb(93, 46, 10);       /* Dark accents */
+    --cream: #F5F5DC;            /* Light background */
+    --gold: #daa520;             /* Accent highlights */
+    --dark-text: #2c1810;        /* Primary text */
+    --light-text: #6b4423;       /* Secondary text */
+    --white: #FFFFFF;            /* Pure white */
+}
+
+:root {
+    /* ================================
+     TYPOGRAPHY VARIABLES
+  ================================ */
+
+    /* Headings */
+    --h1-size: 3.5rem;
+    /* 56px - Hero title */
+    --h2-size: 2.5rem;
+    /* 40px - Section titles */
+    --h3-size: 1.4rem;
+    /* 22px - Card titles */
+
+    /* Body */
+    --p-size: 1rem;
+    /* 16px - Regular text */
+
+    /* Navigation */
+    --nav-size: 1rem;
+    /* 16px - Navigation links */
+
+    /* Buttons */
+    --btn-size: 1.1rem;
+    /* 18px - Call-to-action */
+}
+
+:root {
+    /* ================================
+     SPACING VARIABLES
+  ================================ */
+
+    /* Section Spacing */
+    --section-padding-y: 80px;
+    /* Vertical */
+    --section-padding-x: 5%;
+    /* Horizontal */
+
+    /* Card */
+    --card-padding: 2.5rem;
+    /* 40px */
+
+    /* Grid Gaps */
+    --grid-gap-lg: 3rem;
+    /* 48px */
+    --grid-gap-md: 2rem;
+    /* 32px */
+
+    /* Buttons */
+    --btn-padding-y: 15px;
+    --btn-padding-x: 30px;
+}
+
+
+:root {
+    /* ================================
+     TRANSITIONS & ANIMATIONS
+  ================================ */
+
+    /* Hover / Interaction */
+    --transition-hover: 0.3s ease;
+
+    /* Entrance Animations */
+    --animation-entrance: 0.8s ease-out;
+
+    /* Staggered Delays */
+    --delay-1: 0.1s;
+    --delay-2: 0.2s;
+    --delay-3: 0.3s;
+
+    /* Bounce Cycle */
+    --bounce-duration: 2s;
+    --bounce-iteration: infinite;
+}
